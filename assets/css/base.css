@@ -1,0 +1,69 @@
+/* =========================
+   BASE GLOBAL
+   ========================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #212529;
+  background-color: #ffffff;
+}
+
+/* =========================
+   NAVBAR
+   ========================= */
+
+/* Compensa navbar fixed-top */
+main {
+  padding-top: 4rem;
+}
+
+/* =========================
+   HERO
+   ========================= */
+
+section[aria-labelledby="titulo-principal"] {
+  max-width: 960px;
+}
+
+section[aria-labelledby="titulo-principal"] p {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =========================
+   CARDS
+   ========================= */
+
+.card {
+  border-radius: 0.5rem;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+/* =========================
+   CIERRE
+   ========================= */
+
+footer {
+  border-top: 1px solid #e5e5e5;
+}
+
+/* =========================
+   UTILIDADES PROPIAS
+   ========================= */
+
+.text-muted {
+  color: #6c757d !important;
+}

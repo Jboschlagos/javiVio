@@ -1,0 +1,50 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+
+      <!-- Marca / Identidad -->
+      <a class="navbar-brand fw-bold" href="/index.html">
+        Productora Escénica
+      </a>
+
+      <!-- Botón hamburguesa -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#nav-principal"
+        aria-controls="nav-principal"
+        aria-expanded="false"
+        aria-label="Abrir menú de navegación"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navegación -->
+      <div class="collapse navbar-collapse" id="nav-principal">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link" href="/obras.html">
+              Obras
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/experiencia.html">
+              Experiencia
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="/asesorias.html">
+              Asesorías
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+</header>
